@@ -1,11 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
+  <!--NAVIGATION START-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container">
+      <a href="#" class="navbar-brad"><img src="img/bird.png"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Действие с голубем
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Покормить</a>
+              <a class="dropdown-item" href="#">Погладить</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Задонатить</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Медиа
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Голубиный рэп</a>
+              <a class="dropdown-item" href="#">Фоточки</a>
+              <a class="dropdown-item" href="#">Голубиные рассказы</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Здоровый завтрак голубя</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pigeon</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Dove</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Стать голубем</button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--NAVIGATION END-->
+  <!--BANNER START-->
+  <div class="jumbotron big-banner mb-0 jumbotron-fluid" style="height: 600px; padding-top: 150px;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="col-md-4 text-light">
+            <h1 class="display-5">"КУРЛЫК-КУРЛЫК"</h1>
+            <br>
+            <p class="lead">Цитаты великих голубей</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--BANNER END-->
+  <!--BENEFIT START-->
+  <div class="container-fluid padding animals">
+    <div class="row text-center padding vertical-divider">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-cat"></i>
+        <h3>Кошки</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, repudiandae? Ad.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-dog"></i>
+        <h3>Собаки</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, animi.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-crow"></i>
+        <h3>Другие птицы</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row align-items-center text-center alert justify-content-center">
+      <div class="col-6">
+        <h2>Братство голубей</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus quas delectus.
+            Incidunt, assumenda reprehenderit?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid padding animals">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-book"></i>
+        <h4>Книга знаний</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">24/7 support</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">1610+ elements</span>
+          </li>
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">600+ pages</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">Unlimited domain or user</span>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 middle-col rounded" style="padding:0">
+        <i class="fas fa-book-medical"></i>
+        <h4>Книга жизни</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">24/7 support</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">1610+ elements</span>
+          </li>
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">600+ pages</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">Unlimited domain or user</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-book-dead"></i>
+        <h4>Книга смерти</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">24/7 support</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">1610+ elements</span>
+          </li>
+          <li class="d-flex align-items-center g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">600+ pages</span>
+          </li>
+          <li class="d-flex align-items-center u-shadow-v19 g-bg-secondary g-px-35 g-py-15">
+            <svg class="g-fill-primary" width="13" height="13" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"
+                fill="#72c02c"></path>
+            </svg>
+            <span class="g-color-text ml-3">Unlimited domain or user</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--BENEFIT END-->
+
+  <br><br><br><br><br>
+  
+  <!--FOOTER START-->
+  <footer class="page-footer font-small unique-color-dark pt-0">
+    <div class="primary-color">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text"> Let's go!</h6>
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <a href="#" class="fb-ic ml-0">
+              <i class="fab fa-facebook white-text mr-4"></i>
+            </a>
+            <a href="#" class="fb-ic ml-0">
+              <i class="fab fa-instagram white-text mr-4"></i>
+            </a>
+            <a href="#" class="fb-ic ml-0">
+              <i class="fab fa-vk white-text mr-4"></i>
+            </a>
+            <a href="#" class="fb-ic ml-0">
+              <i class="fab fa-twitter white-text mr-4"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-4 text-center text-md-left ">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h6 class="text-uppercase font-weight-bold"><strong>Наше братство</strong></h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae obcaecati assumenda debitis fugit!</p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+          <h6 class="text-uppercase font-weight-bold"><strong>Кодекс</strong></h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><a href="#">Link_1</a></p>
+          <p><a href="#">Link_2</a></p>
+          <p><a href="#">Link_3</a></p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto ">
+          <h6 class="text-uppercase font-weight-bold"><strong>Ссылки</strong></h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><a href="#">Наш аккаунт</a></p>
+          <p><a href="#">Help</a></p>
+          <p><a href="#">FAQ</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3">
+          <h6 class="text-uppercase font-weight-bold"><strong>Contacts</strong></h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><i class="fa fa-home mr-3">Rybinsk</i></p>
+          <p><i class="fa fa-envelope mr-3">dove@mail.ru</i></p>
+          <p><i class="fa fa-phone mr-3">+7 123 321 77 66</i></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--FOOTER END-->
 </body>
+
 </html>
